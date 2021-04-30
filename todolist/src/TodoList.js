@@ -38,6 +38,20 @@ class TodoList extends Component {
 			items: this.state.items
 		});
 
+/*
+		let item_data = JSON.stringify({
+			id: this.last_id,
+			item: text_v
+		});
+
+		fetch("//10.40.2.110:8081/submit", {
+			method: "POST",
+			headers: {
+				'Content-Type':'text/json'
+			},
+			body: item_data
+		});
+*/
 	}
 
 	removeItem (id_item) {
